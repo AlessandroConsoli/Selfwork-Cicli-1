@@ -1,7 +1,7 @@
 let num = prompt(`inserire un numero`);
 
-for (let i = 0; i >= 0 && i < 11; i++) {
-    console.log(`${num} per ${i} = ${num * i}`); 
+for (let i = 1; i >= 1 && i <= 10; i++) {
+    console.log(num * i); 
 }
 
 console.log(`Tabellina terminata!`);
